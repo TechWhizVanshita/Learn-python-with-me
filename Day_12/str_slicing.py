@@ -15,3 +15,9 @@ print(fruit[-7:-3]) # -7 not included
 print(fruit[0:-5]) #Here 0 starts from the starting and output is : pine
 
 print(fruit[-1:len(fruit) - 3]) # It will not throw any output or error.
+
+#Loop through a string:
+
+alphabets = "ABCDE"
+for i in alphabets:
+    print(i)
