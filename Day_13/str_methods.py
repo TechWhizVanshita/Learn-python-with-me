@@ -57,26 +57,77 @@ print(j.endswith("bad",11,15))
 
 #find() - searches for the first occurrence of the given value and returns the index where it is present. If given value is absent then it returns -1.
 
-h = "Getting up early is good for health."
-print(h.find("good"))
+k = "Getting up early is good for health."
+print(k.find("good"))
 
 #find() is similar to index() method but the major difference is that index() raises an exception if value is absent whereas find() returns -1.
 
-print(h.find("bad"))
+print(k.find("bad"))
 
 #index() - searches for the first occurrence of the given value and returns the index where it is present. If given value is absent then it raises an exception.
 
-i = "You are good enough to achieve your dream."
-print(i.index("enough"))
+l = "You are good enough to achieve your dream."
+print(l.index("enough"))
 
 # print(i.index("reality"))
 
 #isalnum() - returns true only if entire string consists alphabetic or numeric characters, if any other characters or punctuations are present then it returns False.
 
 #Space is also not allowed in this string method.
-j = "Learnpythonwithme"
-print(j.isalnum())
+m = "Learnpythonwithme"
+print(m.isalnum())
 
 
 
-#isalpha() - 
+#isalpha() - return True only if entire string only consists A-Z, a-z . If any other characters or punctuations or numbers (0-9) are present, then it returns False.
+
+n = "Welocome13"
+print(n.isalpha())
+
+
+#islower() - return True if all the characters in the string are lower case, else it returns false.
+
+o = "My name is Vanshita"
+print(o.islower()) #return False
+
+#isprintable() - returns True if all the values within given string are printable. 
+
+# control characters such as (newline,tab,carriage return are not printable character.)
+
+p = "We wish you a Merry Christmas"
+print(p.isprintable())
+
+#isspace() - returns True if only and only if the string contain white space or white space characters(newline,tab,carriage return), else returns false.
+
+q = "   "
+r = "\t\t\t\t"
+s = "Hello, World..."
+print(q.isspace())
+print(r.isspace())
+print(s.isspace())
+
+#istitle() - returns True only if the first letter of each word of the string is captialized, else it returns False.
+
+t = "World Wide Web"
+print(t.istitle())
+
+#isupper() - returns True if all the characters present in the string are in the upper case.
+
+u = "MY NAME IS VANSHITA"
+print(u.isupper())
+
+#startswith() - checks if the string starts with a given value. If yes then return True, else return False.
+
+v = "Python is Interpreted language."
+print(v.startswith("Python"))
+
+#swapcase() - changes the character casing of string. Upper case are converted to lower case and lower case to upper case.
+
+w = "How are you?"
+print(w.swapcase())
+
+
+#title() - captializes each letter of the word within the string.
+
+x = "I live in gargi hostel."
+print(x.title())
