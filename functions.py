@@ -77,3 +77,11 @@ def my_function9(x):
 print(my_function9(2))
 print(my_function9(10))
 print(my_function9(20))
+
+
+#The pass statement:
+
+def myfunction():
+  pass
+
+# having an empty function definition like this, would raise an error without the pass statement
