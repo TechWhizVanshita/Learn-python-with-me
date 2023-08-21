@@ -13,3 +13,23 @@ while i<=10:
     if i ==7:
         break
     i += 1
+    
+
+#The continue statement
+
+i = 0
+while i<10:
+    i += 1
+    if i==5:
+        continue
+    print(i)
+    
+#The else statement
+
+i = 3
+
+while i<=18:
+    print(i)
+    i += 3
+else:
+    print("Loop ends!")
