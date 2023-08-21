@@ -57,3 +57,23 @@ my_function7("Bengaluru")
 my_function7()
 my_function7("Delhi")
 my_function7("Mumbai")
+
+
+#passing a list as an argument --
+
+def my_function8(food):
+    for x in food:
+        print(x)
+        
+food = ["Pavbhaji","Puchka","Ice-cream"]
+my_function8(food)
+
+
+#Return values
+
+def my_function9(x):
+    return x/2
+
+print(my_function9(2))
+print(my_function9(10))
+print(my_function9(20))
