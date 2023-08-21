@@ -29,3 +29,11 @@ def my_function4(*brothers):
     print("The elder brother is " + brothers[0])
 
 my_function4("Ramesh","Suresh","Sree")
+
+
+#Keyword arguments(kwargs)
+
+def my_function5(girl1,girl2,girl3):
+    print("The youngest girl child is " + girl3)
+    
+my_function5(girl1="Aasma",girl2="Rehnuma",girl3="Sidra")
