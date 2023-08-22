@@ -66,3 +66,13 @@ thislist3 = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 thislist3[1:3] = ["pineapple","strawberry"]
 print(thislist3)
 
+list_2 = ["ink","pen","paper","copy"]
+list_2[1:2] = "register","scale" #Here index 2 replace with 2 values.
+
+print(list_2)
+
+list_3 = ["white","green","blue"]
+list_3[1:3] = "yellow"
+
+print(list_3)
+
