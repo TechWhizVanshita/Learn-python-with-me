@@ -34,3 +34,10 @@ print(a)
 
 print(a[0])
 print(a[-1])
+
+#Range of Indexes
+
+thislist3 = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist3[2:5]) #2 (included) and end at index 5 (not included)
+
+print(thislist3[:4])
