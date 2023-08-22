@@ -76,3 +76,6 @@ list_3[1:3] = "yellow"
 
 print(list_3)
 
+
+
+
